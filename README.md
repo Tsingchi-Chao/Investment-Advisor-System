@@ -8,5 +8,5 @@
 ## Rolling_earning.py文件
 文件定义RollingEarning类，输入基金历史数据以及持有基金固定时间的间隔，可以计算出滚动持有基金固定时间的收益率。
 
-## Tracking_error_IR稳健
+## Tracking_error_IR
 文件定义GETDATA类，从wind提取基金和基金基准的数据并处理得到其每天收益率的数据。FundCalculator类则根据GETDATA类得到的基金和基准的每日收益率数据计算得到该基金的跟踪误差和信息比率。同时，在文件最后，定义了可以直接从wind提取基金跟踪误差和信息比率的函数，方便直接使用。
